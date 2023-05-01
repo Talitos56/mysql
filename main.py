@@ -41,11 +41,11 @@ with connection:
             f'INSERT INTO {TABLE_NAME} '
             '(nome, idade) VALUES ("Luiz", 25) '
         )
-        cursor.execute(  # type: ignore
+        cursor.execute(
             f'INSERT INTO {TABLE_NAME} '
             '(nome, idade) VALUES ("Luiz", 25) '
         )
-        result = cursor.execute(  # type: ignore
+        result = cursor.execute(
             f'INSERT INTO {TABLE_NAME} '
             '(nome, idade) VALUES ("Luiz", 25) '
         )
